@@ -9,3 +9,9 @@ Route::get('/', function () {
 Route::get('/helo', function () {
     return "Hello World";
 });
+
+use App\Http\Controllers\ProductController; 
+Route::get('/products', [ProductController::class, 'index']); 
+
+use App\Http\Controllers\MahasiswaController;
+Route::resource('mahasiswa', MahasiswaController::class);
