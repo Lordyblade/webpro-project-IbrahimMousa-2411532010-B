@@ -25,9 +25,9 @@
         <div class="mb-3">
             <label for="jurusan" class="form-label fw-bold">Jurusan</label>
             <select class="form-select" id="jurusan" name="jurusan" required>
-                <option value="Teknik Informatika" {{ $mahasiswa->jurusan == 'Informatika' ? 'selected' : '' }}>Informatika</option>
+                <option value="Informatika" {{ $mahasiswa->jurusan == 'Informatika' ? 'selected' : '' }}>Informatika</option>
                 <option value="Sistem Informasi" {{ $mahasiswa->jurusan == 'Sistem Informasi' ? 'selected' : '' }}>Sistem Informasi</option>
-                <option value="Manajemen Informatika" {{ $mahasiswa->jurusan == 'Manajemen Informatika' ? 'selected' : '' }}>Manajemen Informatika</option>
+                <option value="Teknik Komputer" {{ $mahasiswa->jurusan == 'Teknik Komputer' ? 'selected' : '' }}>Teknik Komputer</option>
             </select>
         </div>
 
